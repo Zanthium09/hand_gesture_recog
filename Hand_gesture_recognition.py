@@ -156,7 +156,7 @@ def main():
     elif mode == '3':
         recognize()
     else:
-        print("Invalid option.")
+        print("Invalid option so hello.")
 
 if __name__ == "__main__":
     main()
