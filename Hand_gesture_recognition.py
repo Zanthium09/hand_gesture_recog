@@ -37,7 +37,7 @@ def collect_data():
     cap = cv2.VideoCapture(0)
     collected = []
     print("\n=== DATA COLLECTION MODE ===")
-    print("Show a gesture and press its number key (0-9) to label & save sample.")
+    print("Show a gesture and press its number key (0-9) to label & save sample me the files.")
     print("Labels:")
     for idx, name in GESTURE_LABELS.items():
         print(f"{idx}: {name}")
